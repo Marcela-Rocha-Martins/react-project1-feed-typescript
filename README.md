@@ -66,6 +66,6 @@ The application will be available at http://localhost:5173/vite-deploy-demo/
 
 ## Deploy
 
-This project its available on: https://marcela-rocha-martins.github.io/react-project1-feed-typescript/ 
+This project its available on: https://react-project1-feed-typescript.vercel.app/
 
 
