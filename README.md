@@ -54,7 +54,7 @@ This is a React project developed with TypeScript and Vite, simulating a social 
 
 1. **Clone this repository:**
    ```bash
-   git clone [https://github.com/your-username/repository-name.git](https://github.com/Marcela-Rocha-Martins/react-project1-feed-typescript.git)https://github.com/Marcela-Rocha-Martins/react-project1-feed-typescript.git
+   git clone https://github.com/Marcela-Rocha-Martins/react-project1-feed-typescript.git
 
 2. **Install dependencies:**
    npm install or yarn install
