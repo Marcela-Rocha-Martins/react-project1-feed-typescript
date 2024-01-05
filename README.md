@@ -1,30 +1,71 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite Project: Social Media Feed Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React project developed with TypeScript and Vite, simulating a social media feed similar to Twitter. In this application, users can create posts, applaud comments, and interact dynamically.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Content Posting:** Users can create posts to share thoughts, news, or updates with the community.
 
-## Expanding the ESLint configuration
+- **Interactivity:** The application offers features like applauding a comment to express approval.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React:** The JavaScript library for building efficient and reactive user interfaces.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **TypeScript:** A typed superset for JavaScript that adds static types to the language.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Vite:** A fast bundler for JavaScript/TypeScript projects that leverages modern development architecture.
+
+## Used Libraries
+
+### Production Dependencies:
+
+- **date-fns:** A modern library for date manipulation in JavaScript.
+
+- **phosphor-react:** Stylish icon set for React applications.
+
+- **react:** The core library for building user interfaces in React.
+
+- **react-dom:** React DOM-specific package.
+
+### Development Dependencies:
+
+- **@types/react:** TypeScript types for the React library.
+
+- **@types/react-dom:** TypeScript types for the React DOM package.
+
+- **@typescript-eslint/eslint-plugin:** ESLint plugin for TypeScript integration.
+
+- **@typescript-eslint/parser:** TypeScript parser for ESLint.
+
+- **@vitejs/plugin-react:** Vite plugin for React support.
+
+- **eslint:** Linting tool to identify and fix code patterns.
+
+- **eslint-plugin-react-hooks:** ESLint plugin for specific React Hooks rules.
+
+- **eslint-plugin-react-refresh:** ESLint plugin for React Refresh support.
+
+- **typescript:** Programming language adding types to JavaScript.
+
+- **vite:** Fast bundler for JavaScript/TypeScript projects.
+
+## Installation and Execution
+
+1. **Clone this repository:**
+   ```bash
+   git clone [https://github.com/your-username/repository-name.git](https://github.com/Marcela-Rocha-Martins/react-project1-feed-typescript.git)https://github.com/Marcela-Rocha-Martins/react-project1-feed-typescript.git
+
+2. **Install dependencies:**
+   npm install or yarn install
+
+3. **Run the application:**
+  npm run dev or yarn dev
+
+The application will be available at http://localhost:5173/vite-deploy-demo/ 
+
+## Deploy
+
+This project its available on: https://marcela-rocha-martins.github.io/react-project1-feed-typescript/ 
+
+
