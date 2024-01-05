@@ -20,12 +20,12 @@
 
 .content a {
   font-weight: bold;
-  color: var(--green-500);
+  color: var(--yellow-500);
   text-decoration: none;
 }
 
 .content a:hover {
-  color: var(--green-300);
+  color: var(--yellow-300);
 }
 
 .post > header {
@@ -62,15 +62,15 @@
   width: 100%;
   margin-top: 1.5rem;
   padding-top: 1.5rem;
-  border-top:1px solid var(--gray-600)
+  border-top: 1px solid var(--gray-600);
 }
 
-.commentForm > strong{
+.commentForm > strong {
   line-height: 1.6;
   color: var(--gray-100);
 }
 
-.commentForm textarea{
+.commentForm textarea {
   width: 100%;
   background: var(--gray-900);
   border: 0;
@@ -83,12 +83,12 @@
   margin-top: 1rem;
 }
 
-.commentForm button[type=submit] {
+.commentForm button[type="submit"] {
   padding: 1rem 1.5rem;
   margin-top: 1rem;
   border-radius: 8px;
   border: 0;
-  background: var(--green-500);
+  background: var(--yellow-500);
   color: var(--white);
   font-weight: bold;
   cursor: pointer;
@@ -97,7 +97,7 @@
 }
 
 .commentForm button[type="submit"]:not(:disabled):hover {
-  background: var(--green-300);
+  background: var(--yellow-300);
 }
 
 .commentForm button:disabled {
