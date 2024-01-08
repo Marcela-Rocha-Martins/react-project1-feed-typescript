@@ -24,32 +24,6 @@ This is a React project developed with TypeScript and Vite, simulating a social 
 
 - **phosphor-react:** Stylish icon set for React applications.
 
-- **react:** The core library for building user interfaces in React.
-
-- **react-dom:** React DOM-specific package.
-
-### Development Dependencies:
-
-- **@types/react:** TypeScript types for the React library.
-
-- **@types/react-dom:** TypeScript types for the React DOM package.
-
-- **@typescript-eslint/eslint-plugin:** ESLint plugin for TypeScript integration.
-
-- **@typescript-eslint/parser:** TypeScript parser for ESLint.
-
-- **@vitejs/plugin-react:** Vite plugin for React support.
-
-- **eslint:** Linting tool to identify and fix code patterns.
-
-- **eslint-plugin-react-hooks:** ESLint plugin for specific React Hooks rules.
-
-- **eslint-plugin-react-refresh:** ESLint plugin for React Refresh support.
-
-- **typescript:** Programming language adding types to JavaScript.
-
-- **vite:** Fast bundler for JavaScript/TypeScript projects.
-
 ## Installation and Execution
 
 1. **Clone this repository:**
